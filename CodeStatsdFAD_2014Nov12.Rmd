@@ -1,0 +1,48 @@
+---
+title: "ForcesCode"
+author: "S Santos"
+date: "Thursday, November 06, 2014"
+output: html_document
+---
+
+# Introduction:
+
+If the figures for the force versus distance etc. are already produced
+this code will allow computing and calculating statistics.
+
+The forces should be obatined with the main code [here](https://github.com/FSDataAnalysis/AMAFMCodes) or the simplified code [here](https://github.com/FSDataAnalysis/CodeAMForces).
+
+The files from **StatisticsAttractive\ION\DATA_FOLDER** should be copied inside **ION\DATA_FOLDER** here. 
+
+
+# STEPS:
+
+
+1. Place files from tree folder **StatisticsAttractive\ION\DATA_FOLDER** into **ION\DATA_FOLDER**.
+
+2. Run the **FiguresProcessingSINGLE.m** file. The first option is as for main code 
+
+
+
+You will get a matrix, Matrix_values,  with three columns:
+
+* Fadhesion, i.e. related to chemical affinity and capilarity
+
+* Area under the curve, i.e. work required to separate tip from sample
+
+* The distance IncrFad, i.e. related to the height of water layers
+
+* A fourth column will be copied in the excel file if the last option in the panel is set to one. The last column tells the percentage of FAD. 
+
+
+For details on, and definitions of, the meaning of the above parameters check:
+
+- [here](http://scitation.aip.org/content/aip/journal/jcp/139/8/10.1063/1.4819267?showFTTab=true&containerItemId=content/aip/journal/jcp)
+
+Amadei, C. A., Tang, T. C., Chiesa, M. & Santos, S. The aging of a surface and the evolution of conservative and dissipative nanoscale interactions. The Journal of Chemical Physics 139, 084708 (2013).
+
+- There is information on the meaning of the Area under the curve 
+[here](http://pubs.acs.org/doi/abs/10.1021/jp411125n)  
+  
+  
+Tang, T.-C., Amadei, C. A., Thomson, N. H. & Chiesa, M. Ion Exchange and DNA Molecular Dip Sticks: Studying the Nanoscale Surface Wetting of Muscovite Mica. Journal of Physical Chemistry C 118, 4695-4701 (2014).
